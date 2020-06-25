@@ -1,5 +1,7 @@
 package com.atguigu.git;
 
+import org.omg.Messaging.SyncScopeHelper;
+
 public class HelloGit {
     public static void main(String[] args) {
         System.out.println("Hello Git");
@@ -7,5 +9,6 @@ public class HelloGit {
         System.out.println("创建分支");
         System.out.println("主干添加");
         System.out.println("在线更新");
+        System.out.println("克隆下来的项目添加");
     }
 }
